@@ -12,5 +12,6 @@ return {
   { import = "astrocommunity.colorscheme.tokyodark-nvim" },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.motion.hop-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim"}
   -- import/override with your plugins folder
 }
