@@ -66,12 +66,10 @@ return {
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       },
-      i = {
-        ["<PageDown>"] = {"<C-o><Cmd>ToggleTerm<CR>", desc = "Toggle terminal"},
-      },
       t = {
         -- setting a mapping to false will disable it
         -- ["<esc>"] = false,
+        ["<PageDown>"] = {"<Cmd>ToggleTerm<CR>", desc = "Toggle terminal"},
       },
     },
   },
